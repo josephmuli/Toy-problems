@@ -2,12 +2,14 @@
 //month,using the switch statement.
 
 package feb1;
-
+import java.util.Scanner;
 public class TheSwitch {
 	
 	public static void main (String[] args){
 		
-		int month = 8;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the month number");
+		int month = input.nextInt();
 		
 		String monthString;
 		
